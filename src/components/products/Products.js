@@ -2,7 +2,6 @@ import { GetAllData } from "@/utils/GetAllData";
 import Image from "next/image";
 import Link from "next/link";
 
-
 const Products = async () => {
     const data = await GetAllData();
     console.log(data);
@@ -22,7 +21,6 @@ const Products = async () => {
                                     <div className="badge badge-outline">Price: {item.price}</div>
                                 </div>
                                 <div className="card-actions justify-end items-end flex-grow">
-                                    
                                     <Link href={`/products/${item.id}`}><button className="btn btn-primary">Details</button></Link>
                                 </div>
                             </div>
