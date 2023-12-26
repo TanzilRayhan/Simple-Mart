@@ -3,8 +3,11 @@ import { GetDetails } from "@/utils/GetDetails";
 import Image from "next/image";
 
 const ProductDetails = async ({ params }) => {
+    
+    // Product details data fetching
     const data = await GetDetails(params.productId);
     console.log(data);
+
     return (
         <div className='max-w-4xl mx-auto'>
             <div className="card bg-base-100 shadow-xl">

@@ -47,13 +47,11 @@ export default function App() {
           <div className="text-5xl lg:text-7xl text-center py-10 font-bold" data-swiper-parallax="-300">
             Electronics
           </div>
-        
         </SwiperSlide>
         <SwiperSlide>
           <div className="text-5xl lg:text-7xl text-center py-10 font-bold" data-swiper-parallax="-300">
           Jewelery
           </div>
-          
         </SwiperSlide>
         <SwiperSlide>
           <div className="text-5xl lg:text-7xl text-center py-10 font-bold" data-swiper-parallax="-300">

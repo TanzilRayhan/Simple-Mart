@@ -2,6 +2,8 @@
 const nextConfig = {}
 
 module.exports = nextConfig
+
+//api hostname
 module.exports = {
     images: {
       remotePatterns: [
