@@ -19,7 +19,7 @@ const Products = async () => {
                                         <h2 className="text-base font-bold">{item.title}</h2>
                                         <div className="flex flex-col mt-3 gap-3 justify-start items-center">
                                             <div className="badge badge-lg badge-info p-3 font-semibold text-white">{item.category}</div>
-                                            <div className="badge badge-lg badge-outline badge-secondary p-3 ">Price: {item.price}</div>
+                                            <div className="badge badge-lg badge-outline badge-secondary p-3 ">Price: ${item.price}</div>
                                         </div>
                                     </div>
                                 </div>
